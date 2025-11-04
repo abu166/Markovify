@@ -1,15 +1,5 @@
 #MARKOV-CHAIN
 
-### NO SSH
-
-```html
-ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -q -P ""
-cat ~/.ssh/id_ed25519.pub
-git config --global user.name "alboranga"
-firefox https://platform.alem.school/git/user/settings/keys
-git clone git@git.platform.alem.school:alboranga/markov-chain.git
-```
-
 ### Description
 Main aim of this project is to create markov-chain algorithm with random creating sentences
 
@@ -20,7 +10,7 @@ keyboard it suggests you the next the most probable word
 ### Clone
 
 ```bash
-git clone git@git.platform.alem.school:alboranga/markov-chain.git
+git clone git@github.com:abu166/Markovify.git
 ```
 
 ### Build
